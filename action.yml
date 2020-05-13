@@ -1,0 +1,9 @@
+name: 'Scopy Flatpak Docker'
+description: 'Build Scopy Flatpak package using Docker and Actions'
+author: 'Alexandra Trifan'
+branding:
+  icon: 'package'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'alexandratr/scopy-flatpak-bionic:latest'
